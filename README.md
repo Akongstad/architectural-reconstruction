@@ -9,3 +9,9 @@ Reconstruction of architecture from static code | Software Architecture ITU 2024
 3. Zeeguu API: <https://github.com/zeeguu/api>
 4. Zeeguu frontend: <https://github.com/zeeguu/web>
 5. Report: <https://www.overleaf.com/project/6633aa8b62ad154eebc87df2>
+
+### Papers
+
+1. [1] Symphony: View-Driven Software Architecture Reconstruction <https://ipa.win.tue.nl/archive/springdays2005/Deursen1.pdf>
+2. [2] <[Demeyer et al., Object Oriented Reengineering Patterns (Chapter 1.2)](https://www.oscar.nierstrasz.org/files/oorp/OORP-2013-11-27.pdf)>
+3. [3] <[What architects should know about reverse engineering and reengineering](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=05981602215076b7492b87a8a1f7157dcc9c2196)> R. Koschke, In 5th Working IEEE/IFIP Conference on Software Architecture (WICSA'05)_(pp. 4-10). IEEE. 
