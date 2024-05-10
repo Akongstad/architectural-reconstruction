@@ -2,6 +2,11 @@
 
 Reconstruction of architecture from static code | Software Architecture ITU 2024
 
+## Case study project: [Zeeguu API]<(https://github.com/zeeguu/api)>
+This proejct uses <[Zeeguu API](https://github.com/zeeguu/api)> for a case study of architectural reconstruction from static files. <[Zeeguu API](https://github.com/zeeguu/api)> is python web api for an elearning study web service. 
+The graphs produced by this architectural reconstruction tool are published via github pages at:
+- <[Directory abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/draw_all_filtered_abstracted2.html)>
+
 ## Links
 
 1. Lecture notes: <https://github.com/mircealungu/reconstruction>
