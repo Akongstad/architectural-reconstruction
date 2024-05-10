@@ -5,7 +5,13 @@ Reconstruction of architecture from static code | Software Architecture ITU 2024
 ## Case study project: [Zeeguu API]<(https://github.com/zeeguu/api)>
 This proejct uses <[Zeeguu API](https://github.com/zeeguu/api)> for a case study of architectural reconstruction from static files. <[Zeeguu API](https://github.com/zeeguu/api)> is python web api for an elearning study web service. 
 The graphs produced by this architectural reconstruction tool are published via github pages at:
-- <[Directory abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/draw_all_filtered_abstracted2.html)>
+
+- <[Dependency graph with directory abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/dict-depth-2-dep-graph.html)>
+- <[Dependency graph with directory abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/dict-depth-3-dep-graph.html)>
+- <[Dependency graph with directory abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/dict-depth-4-dep-graph.html)>
+- <[Dependency graph with directory abstraction depth 5](https://akongstad.github.io/architectural-reconstruction/dict-depth-5-dep-graph.html)>
+
+Tips: Color depends on top level package. Hover node to see imported modules. Hover edges to see function call information.
 
 ## Links
 
