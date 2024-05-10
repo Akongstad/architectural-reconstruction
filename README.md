@@ -11,7 +11,7 @@ The graphs produced by this architectural reconstruction tool are published via 
 - [Dependency graph with directory abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/dict-depth-4-dep-graph.html)
 - [Dependency graph with directory abstraction depth 5](https://akongstad.github.io/architectural-reconstruction/dict-depth-5-dep-graph.html)
 
-Tips: Color depends on top level package. Hover node to see imported modules. Hover edges to see function call information.
+**Tips: Color depends on top level package. Hover node to see imported modules. Hover edges to see function call information.**
 
 ## Links
 
