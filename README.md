@@ -5,7 +5,9 @@ Reconstruction of architecture from static code | Software Architecture ITU 2024
 ## Case study project: [Zeeguu API](https://github.com/zeeguu/api)
 > **Credits:** The code extends code provided by [Mircae Lungu](https://github.com/mircealungu) for the course **Software Architecture ITU 2024**
 
-This proejct uses [Zeeguu API](https://github.com/zeeguu/api) for a case study of architectural reconstruction from static files. [Zeeguu API](https://github.com/zeeguu/api) is python web api for an elearning study web service. 
+This proejct uses [Zeeguu API](https://github.com/zeeguu/api) for a case study of architectural reconstruction from static files. [Zeeguu API](https://github.com/zeeguu/api) is python web api for an elearning study web service.
+
+**AI abstraction for select graphs:**
 
 **View dependency graphs:** The graphs produced by this architectural reconstruction tool are published via github pages at:
 
@@ -14,10 +16,26 @@ This proejct uses [Zeeguu API](https://github.com/zeeguu/api) for a case study o
 - [Dependency graph with directory abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/dict-depth-4-dep-graph.html)
 - [Dependency graph with directory abstraction depth 5](https://akongstad.github.io/architectural-reconstruction/dict-depth-5-dep-graph.html)
 
-*With git activity:*
+*Zeeguu.core focus*
+
+- [Dependency graph with directory abstraction depth 2. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-2-dep-graph.html)
+- [Dependency graph with directory abstraction depth 3. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-3-dep-graph.html)
+- [Dependency graph with directory abstraction depth 4. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-4-dep-graph.html)
+- [Dependency graph with directory abstraction depth all. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-all-dep-graph.html)
+
+*With node size based on PageRank centrality*
+
+- [Dependency graph with PageRank centrality. Abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-2-dep-graph.html)
+- [Dependency graph with PageRank centrality. Abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-3-dep-graph.html)
+- [Dependency graph with PageRank centrality. Abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-4-dep-graph.html)
+- [Dependency graph with PageRank centrality. Abstraction depth all](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-all-dep-graph.html)
+
+*With node size based on git activity:*
 
 - [Dependency graph with git activity. Abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-2-dep-graph.html)
-- [Dependency graph with git activity. Abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-2-dep-graph.html)
+- [Dependency graph with git activity. Abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-3-dep-graph.html)
+- [Dependency graph with git activity. Abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-4-dep-graph.html)
+- [Dependency graph with git activity. Abstraction depth 5](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-5-dep-graph.html)
 
 **Tips: Color depends on top level package. Hover node to see imported modules. Hover edges to see function call information.**
 
