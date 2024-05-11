@@ -14,7 +14,7 @@ This proejct uses [Zeeguu API](https://github.com/zeeguu/api) for a case study o
 - [Dependency graph with directory abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/dict-depth-2-dep-graph.html)
 - [Dependency graph with directory abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/dict-depth-3-dep-graph.html)
 - [Dependency graph with directory abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/dict-depth-4-dep-graph.html)
-- [Dependency graph with directory abstraction depth 5](https://akongstad.github.io/architectural-reconstruction/dict-depth-5-dep-graph.html)
+- [Dependency graph with directory abstraction depth all](https://akongstad.github.io/architectural-reconstruction/dict-depth-all-dep-graph.html)
 
 *Zeeguu.core focus*
 
