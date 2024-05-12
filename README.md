@@ -9,6 +9,13 @@ This proejct uses [Zeeguu API](https://github.com/zeeguu/api) for a case study o
 
 **AI abstraction for select graphs:**
 
+- [GPT4-turbo asbstraction](https://github.com/Akongstad/architectural-reconstruction/blob/main/public/ai-depth-2.md) of: [Dependency graph with directory abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/dict-depth-2-dep-graph.html)
+- [GPT4-turbo asbstraction](https://github.com/Akongstad/architectural-reconstruction/blob/main/public/ai-depth-3.md) of: [Dependency graph with directory abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/dict-depth-3-dep-graph.html)
+- [GPT4-turbo asbstraction](https://github.com/Akongstad/architectural-reconstruction/blob/main/public/ai-pagerank-4.md) of: [Dependency graph with PageRank centrality. Abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-4-dep-graph.html)
+- [GPT4-turbo asbstraction](https://github.com/Akongstad/architectural-reconstruction/blob/main/public/ai-churn-depth-3.md) of:  [Dependency graph with git activity. Abstraction depth 3](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-3-dep-graph.html)
+- [GPT4-turbo asbstraction](https://github.com/Akongstad/architectural-reconstruction/blob/main/public/ai-core-depth-3.md) of: [Dependency graph with directory abstraction depth 3. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-3-dep-graph.html)
+- [GPT4-turbo asbstraction](https://github.com/Akongstad/architectural-reconstruction/blob/main/public/ai-core-depth-4.md) of: [Dependency graph with directory abstraction depth 4. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-4-dep-graph.html)
+
 **View dependency graphs:** The graphs produced by this architectural reconstruction tool are published via github pages at:
 
 - [Dependency graph with directory abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/dict-depth-2-dep-graph.html)
