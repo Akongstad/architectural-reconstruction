@@ -7,8 +7,10 @@ Reconstruction of architecture from static code | Software Architecture ITU 2024
 
 This proejct uses [Zeeguu API](https://github.com/zeeguu/api) for a case study of architectural reconstruction from static files. [Zeeguu API](https://github.com/zeeguu/api) is python web api for an elearning study web service.
 
-**View dependency graphs:** The graphs produced by this architectural reconstruction tool are published via GitHub pages at:
-The default graph. How to read:
+### View dependency graphs:
+The graphs produced by this architectural reconstruction tool are published via GitHub pages at:
+
+**The default graph**
 1. Node sizes scale off total degree.
 2. Edge thickness scale with total function calls.
 3. Edges are directed towards the modules being imported.
@@ -22,7 +24,7 @@ The default graph. How to read:
 - [Dependency graph with directory abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/dict-depth-4-dep-graph.html)
 - [Dependency graph with directory abstraction depth all](https://akongstad.github.io/architectural-reconstruction/dict-depth-all-dep-graph.html)
 
-The default graph, but:
+**PageRank graph -- The default graph, but:**
 1. It uses the pageRank algorithm to determine node sizes. (Time imported is weighed more highly)
 
 - [Dependency graph with PageRank centrality. Abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-2-dep-graph.html)
@@ -30,7 +32,7 @@ The default graph, but:
 - [Dependency graph with PageRank centrality. Abstraction depth 4](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-4-dep-graph.html)
 - [Dependency graph with PageRank centrality. Abstraction depth all](https://akongstad.github.io/architectural-reconstruction/pagerank-dict-depth-all-dep-graph.html)
 
-The pagerank graph, but:
+**zeeguu.core graph -- The pagerank graph, but:**
 1. Only the zeeguu.core package is shows
 2. Colors reflect directories within the zeeguu.core package. Example: zeeguu.core.model, zeeguu.core.util, etc.
    
@@ -39,7 +41,7 @@ The pagerank graph, but:
 - [Dependency graph with directory abstraction depth 4. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-4-dep-graph.html)
 - [Dependency graph with directory abstraction depth all. Filtered on zeeguu.core](https://akongstad.github.io/architectural-reconstruction/core-dict-depth-all-dep-graph.html)
 
-The default graph, but:
+**Git activity graph -- The default graph, but:**
 1. It uses git activity to determine size of nodes.
    
 - [Dependency graph with git activity. Abstraction depth 2](https://akongstad.github.io/architectural-reconstruction/churn_dict-depth-2-dep-graph.html)
